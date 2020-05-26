@@ -129,3 +129,8 @@ def processFileForSite3_0(srcFilePath, destImagePath, additOptions):
         jsonImageInfo.update(additOptions['imageInfo'])
     print('\nUnique masks (%s) statistics: ' % os.path.basename(jsonPath))
     printParticlesStats(None, [compMasks], jsonImageInfo)
+
+if __name__ == '__main__':
+    # Example
+    processFileForSite3_0('Pt-HOPG-01-0041.bmp', 'Pt-Result.bmp',
+            {'netSrcUrl': 'localhost/Pt-HOPG-01-0041.bmp'})       # Just something

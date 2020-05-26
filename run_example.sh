@@ -1,0 +1,1 @@
+~/anaconda3/envs/mmdet/bin/python nano_predict.py
