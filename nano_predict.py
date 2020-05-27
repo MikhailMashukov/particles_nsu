@@ -132,5 +132,5 @@ def processFileForSite3_0(srcFilePath, destImagePath, additOptions):
 
 if __name__ == '__main__':
     # Example
-    processFileForSite3_0('Pt-HOPG-01-0041.bmp', 'Pt-Result.bmp',
+    processFileForSite3_0('sample/Pt-HOPG-01-0041.bmp', 'sample/Pt-Result.bmp',
             {'netSrcUrl': 'localhost/Pt-HOPG-01-0041.bmp'})       # Just something
