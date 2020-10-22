@@ -10,7 +10,7 @@ Public repository with core code for counting particles by means of neural netwo
 - CUDA 9.2+ (If you build PyTorch from source, CUDA 9.0 is also compatible)
 - GCC 5+
 - [mmcv](https://github.com/open-mmlab/mmcv)
-- [mmdetection](https://raw.githubusercontent.com/open-mmlab/mmdetection/master/docs/install.md).
+- [mmdetection](https://github.com/open-mmlab/mmdetection).
 
 You also need to download epoch_500_3x.pth from http://particlesnn.nsu.ru/data/static/weights/epoch_500_3x.pth before start. And to put it into a "weights" subfolder.
 
